@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.addEventListener("click", () => {
             let playbar = document.querySelector(".playbar");
             playbar.style.bottom = "20px";
-            playbar.style.transition = "bottom 0.5s ease-in-out";
+            playbar.style.transition = "bottom 1s ease-in-out";
         });
     });
 
