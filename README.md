@@ -9,7 +9,7 @@ A modern, responsive music player interface built using HTML, CSS, and JavaScrip
 This project replicates a web-based music streaming interface similar to Spotify's. It features a fixed navigation bar with a search function, a collapsible sidebar for accessing your library and legal links, and sections for trending songs, popular songs, and popular artists. The integrated music player supports intuitive playback controls (play/pause, next, previous) along with real-time duration updates.
 
 ---
-front-end interface  :
+##front-end interface  :
     interface of pc(desktop) : https://github.com/user-attachments/assets/f1e64ba7-a849-4d51-8ef7-2a324e514273    
     interface of mobile:  https://github.com/user-attachments/assets/b14f1e04-8dbd-4af5-a0da-1a074eb03bd6
 
