@@ -108,33 +108,6 @@ To run the project locally:
 
 ---
 
-## Future Enhancements
-
-- **Advanced Animations:** Refine hover effects and transitions for a smoother user experience.
-- ** music Control:** Introduce a volume slider to adjust playback levels.
-- **Accessibility:** Enhance keyboard navigation and overall accessibility.
-
----
-
-## Contributing
-
-Contributions are welcome. To contribute: 
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes with clear, descriptive messages.
-4. Open a pull request outlining your modifications.
-
-For significant changes, please open an issue first to discuss your proposed changes.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Acknowledgments
 
 - **Spotify:** For inspiring the design and functionality.
