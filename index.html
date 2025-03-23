@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="nav full-width">
+      <div class="menu flex justify-center items-center gap-2">
+        <img class="menu  " src="assets/svg/menu.svg" alt="" srcset="">
+      </div>
+
+
+      <div class="logo flex p-2 m-2">
+        <img src="assets/svg/logo.svg" class="logo-img" alt="Spotify Logo">
+      </div>
+
+      <div class="home flex justify-center items-center">
+        <button class="btn-home bg-grey rounded-full p-2 bor-non">
+          <img src="assets/svg/home.svg" alt="Home" class="icon ">
+        </button>
+      </div>
+
+      <div class="search-bar flex items-center gap-2">
+        <div class="search-icon"></div>
+        <input type="search" class="search-input" placeholder="What do you want to play?">
+      </div>
+
+      <div class="nav-right flex items-center gap-4">
+        <a href="#" class="nav-link" id="Premium">Premium</a>
+        <a href="#" class="nav-link" id="Support">Support</a>
+        <a href="#" class="nav-link" id="Download">Download</a>
+        <div class="divider"></div>
+        <a href="#" class="nav-link" id="Install-App">Install App</a>
+        <a href="#" class="nav-link">Sign up</a>
+        <button class="login-btn">Log in</button>
+      </div>
+    </nav>
+
+    <div class="sidebar  p-4">
+      <div class="close">
+        <img class="" src="assets/svg/close.svg" alt="">
+      </div>
+
+      <div class="library flex">
+        <h2 class="library-title  "> <br>Your Library </h2>
+      </div>
+
+      <div class="footer">
+        <div><a href="https://www.spotify.com/us/legal/"><span>Legal</span></a></div>
+        <div><a href="https://www.spotify.com/us/privacy/"><span>Privacy Center</span></a></div>
+        <div><a href="https://www.spotify.com/us/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+        <div><a href="https://www.spotify.com/us/legal/cookies-policy/"><span>Cookies</span></a></div>
+        <div><a href="https://www.spotify.com/us/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+        <div><a href="https://www.spotify.com/us/accessibility/"><span>Accessibility</span></a></div>
+      </div>
+
+    </div>
+
+
+
+    <div class="song">
+      <section class="music-section">
+        <div class="Trendingsongs">
+          <h1 class="section-title">Trending Songs</h1>
+          <div class="cardcon">
+
+            <div class="card " data-song="1">
+              <img src="assets/song/Trending songs/1.jpg" alt="">
+              <h1>Raanjhan (From Do Patti)</h1>
+            </div>
+
+            <div class="card" data-song="2">
+              <img src="assets/song/Trending songs/2.jpg" alt="">
+              <h1>Tum Se</h1>
+              <p>Shahid Kapoor, Kriti | Sachin-Jigar, Raghav Chaitanya, Varun Jain, Indraneel</p>
+            </div>
+
+            <div class="card" data-song="3">
+              <img src=" assets/song/Trending songs/3.jpg" alt="">
+              <h1>Vartmaan</h1>
+              <p> UNIYAL,Soumya Rawat</p>
+            </div>
+
+            <div class="card" data-song="4">
+              <img src=" assets/song/Trending songs/4.jpg" alt="">
+              <h1>hanuman chalisa</h1>
+              <p> Hariharan</p>
+            </div>
+
+            <div class="card" data-song="5">
+              <img src="assets/song/Trending songs/5.jpg" alt="">
+              <h1>Aarambh</h1>
+              <p>Piyush Mishra</p>
+            </div>
+
+            <div class="card" data-song="6">
+              <img src="assets/song/Trending songs/6.jpg" alt="">
+              <h1>Paro</h1>
+              <p>Aditya Rikhari, UNPLG'd</p>
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="PopularAlbums">
+          <h1 class="section-title">Popular songs </h1>
+          <div class="cardcon">
+
+            <div class="card" data-song="7">
+              <img src="assets/song/Popular albums and singles/1.jpg" alt="">
+              <h1>Ishq Hai</h1>
+              <P>Anurag Saikia, Raj Shekhar, Romy, Amarabha Banerjee, Varun Jain, Madhubanti Bagchi</P>
+            </div>
+
+            <div class="card" data-song="8">
+              <img src="assets/song/Popular albums and singles/2.jpg" alt="">
+              <h1>Kailasa</h1>
+              <p>Kailasa, Kailash Kher</p>
+            </div>
+
+            <div class="card" data-song="9">
+              <img src="assets/song/Popular albums and singles/3.jpg" alt="">
+              <h1>Shri Krishna Govind Hare Murari </h1>
+              <p> Jubin Nautiyal</p>
+            </div>
+
+            <div class="card" data-song="10">
+              <img src="assets/song/Popular albums and singles/4.jpg" alt="">
+              <h1>Young G.O.A.T </h1>
+              <p>Cheema Y, Gur Sidhu</p>
+            </div>
+
+            <div class="card" data-song="11">
+              <img src="assets/song/Popular albums and singles/5.jpg" alt="">
+              <h1>Millionaire </h1>
+              <p>Yo Yo Honey Singh</p>
+            </div>
+
+            <div class="card" data-folder="popular" data-song="12">
+              <img src="assets/song/Popular albums and singles/6.jpg" alt="">
+              <h1>Naagar Nandji Na Laal</h1>
+              <p>Aditya Gadhvi</p>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="PopularArtists  ">
+          <h1 class="section-title">Popular Artists</h1>
+          <div class="cardcon" id="Artists">
+
+
+
+            <div class="card"><img src="assets/song/Popular artists/1.jpg" alt="">
+              <h1>Pritam</h1>
+              <p>Artist</p>
+            </div>
+            <div class="card"><img src="assets/song/Popular artists/2.jpg" alt="">
+              <h1>A.R. Rahman</h1>
+              <p>Artist</p>
+            </div>
+            <div class="card"><img src="assets/song/Popular artists/3.jpg" id="arijit" alt="">
+              <h1>Arijit Singh</h1>
+              <p>Artist</p>
+            </div>
+            <div class="card"><img src="assets/song/Popular artists/4.jpg" alt="">
+              <h1>Sachin-Jigar</h1>
+              <p>Artist</p>
+            </div>
+            <div class="card"><img src="assets/song/Popular artists/5.jpg" alt="">
+              <h1>Vishal-Shekhar</h1>
+              <p>Artist</p>
+            </div>
+            <div class="card"><img src="assets/song/Popular artists/6.jpg" alt="">
+              <h1>Atif Aslam</h1>
+              <p>Artist</p>
+
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <div class="playbar">
+
+        <div class="songbtn invert flex justify-center ">
+          <img src="assets/svg/prevsong.svg"  class="play" alt="" srcset="">
+          <img id="play" src="assets/svg/play.svg" class="play" alt="Play Button" style="width: 40px; cursor: pointer;">
+
+          <img src="assets/svg/nextsong.svg"  class="play" alt="" srcset="">
+          <audio id="audio-player"  hidden></audio>
+          <p id="songDuration">0:00</p>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+  <script src="scriptt.js"></script>
+</body>
+
+</html>
