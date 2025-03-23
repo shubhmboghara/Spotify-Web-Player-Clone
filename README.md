@@ -140,5 +140,7 @@ This project is licensed under the [MIT License](LICENSE).
 - **Spotify:** For inspiring the design and functionality.
 - **Google Fonts:** For providing the Roboto font used throughout this project.
 - **Community Contributions:** Thank you to all contributors who help maintain and improve this project.
+
+
 ```
 
