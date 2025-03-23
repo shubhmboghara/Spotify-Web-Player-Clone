@@ -111,9 +111,7 @@ To run the project locally:
 ## Future Enhancements
 
 - **Advanced Animations:** Refine hover effects and transitions for a smoother user experience.
-- **Volume Control:** Introduce a volume slider to adjust playback levels.
-- **Playlist Management:** Allow users to create, save, and manage playlists.
-- **API Integration:** Connect with external APIs for dynamic song data and real-time streaming features.
+- ** music Control:** Introduce a volume slider to adjust playback levels.
 - **Accessibility:** Enhance keyboard navigation and overall accessibility.
 
 ---
