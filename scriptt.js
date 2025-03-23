@@ -104,6 +104,15 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector(".close").addEventListener("click", () => {
         document.querySelector(".sidebar").style.left = '-120%'; 
     });
+
+     document.querySelectorAll(".card").forEach(card => {
+        card.addEventListener("click", () => {
+            let playbar = document.querySelector(".playbar");
+            playbar.style.bottom = "20px";
+            playbar.style.transition = "bottom 0.5s ease-in-out";
+        });
+    });
+
     
 
 })
