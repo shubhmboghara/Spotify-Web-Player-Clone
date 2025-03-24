@@ -4,6 +4,10 @@
 A modern, responsive music player interface built using HTML, CSS, and JavaScript. This project is inspired by Spotify's design and demonstrates a clean, scalable UI architecture with interactive media controls.
 
 ---
+## Live Demo of Website
+  https://exquisite-tulumba-2b2624.netlify.app/
+  
+---
 ## Overview
 
 This project replicates a web-based music streaming interface similar to Spotify's. It features a fixed navigation bar with a search function, a collapsible sidebar for accessing your library and legal links, and sections for trending songs, popular songs, and popular artists. The integrated music player supports intuitive playback controls (play/pause, next, previous) along with real-time duration updates.
