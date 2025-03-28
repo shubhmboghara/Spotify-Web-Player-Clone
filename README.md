@@ -5,8 +5,7 @@ A modern, responsive music player interface built using HTML, CSS, and JavaScrip
 
 ---
 ## Live Demo of Website
-  https://exquisite-tulumba-2b2624.netlify.app/
-  
+  https://webplayer-music.netlify.app/ 
 ---
 ## Overview
 
