@@ -5,7 +5,7 @@ A modern, responsive music player interface built using HTML, CSS, and JavaScrip
 
 ---
 ## Live Demo of Website
-  https://webplayer-music.netlify.app/ 
+  <https://webplayer-music.netlify.app/>
 ---
 ## Overview
 
