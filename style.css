@@ -324,7 +324,7 @@ body {
   .search-bar {
     padding: 4px 8px;
     flex-grow: 1;
-    max-width: 100px;
+    max-width: 165px;
   }
 
   .search-icon {
@@ -338,8 +338,8 @@ body {
     background: none;
     border: none;
     color: #ffffff;
-    font-size: 14px;
-    padding: 0 8px;
+    font-size: 13px;
+    padding: 5px 2px;
     width: 100%;
   }
 
