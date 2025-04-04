@@ -228,9 +228,9 @@ body {
 }
 
 .card:hover {
-  transform: scale(1.1);
-  background: #181818;
-
+     transform: scale(1.1);
+    background: #1f1f1f;
+    border: 3px white solid;
 }
 
 
