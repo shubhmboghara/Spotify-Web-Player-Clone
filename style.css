@@ -439,7 +439,7 @@ body {
 
   .card {
     gap: 5px;
-    width: 100px;
+    width: 118px;
     
   }
 
@@ -458,11 +458,11 @@ body {
 
   .card:hover {
     transform: scale(1.1);
-    background: #181818;
+    background: #1f1f1f;
+    border: 3px white solid;
   
   }
   
-
   .playbar {
     position: fixed;
     width: 90%;
