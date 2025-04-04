@@ -446,13 +446,14 @@ body {
   .card h1 {
     font-size: 16px;
     margin-top: 4px;
+    width:111px;
   }
 
   .card p {
     font-size: 14px;
     overflow: hidden;
     white-space: nowrap;
-    width: 100%;
+    width:111px;
   }
 
   .card:hover {
