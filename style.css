@@ -380,7 +380,7 @@ body {
     padding: 0.7rem;
     min-width: 20px;
     min-height: 20px;
-    font-size: 0.5rem;
+    font-size: 14px;
   }
 
 
@@ -444,12 +444,12 @@ body {
   }
 
   .card h1 {
-    font-size: 8px;
+    font-size: 16px;
     margin-top: 4px;
   }
 
   .card p {
-    font-size: 0.6rem;
+    font-size: 14px;
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
